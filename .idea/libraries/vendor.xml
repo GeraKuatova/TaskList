@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="vendor">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/vendor/mysql-connector-java-8.0.17-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/mysql-connector-java-8.0.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/vendor/freemarker.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

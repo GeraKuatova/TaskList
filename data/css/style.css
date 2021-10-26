@@ -1,0 +1,93 @@
+.big{
+    font-weight: bold;
+    font-size: 30px;
+}
+nav{
+    padding-top: 30px;
+    padding-right: 250px;
+}
+
+header{
+    background-color: pink;
+    height: 80px;
+
+}
+
+.nav-items{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.register-button {
+    align-items: center;
+    font-size: 12px;
+    display: block;
+    width: 100px;
+    padding: 15px 0;
+    background-color: #30d5c8;
+    border: 0;
+    border-radius: 5px;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: white;
+}
+
+.caption{
+    color: purple;
+    background-color: plum;
+    font-weight: bold;
+}
+.main-heading{
+    color: palevioletred;
+    text-decoration: underline;
+    text-align: center;
+    background-color: darkgray;
+}
+.image{
+    border-radius: 100px;
+    width: 200px;
+    height: 200px; 
+}
+.photo{
+    text-align: center;
+}
+.main-text{
+    font-size: 19px;
+    font-style: italic;
+}
+.tfoot{
+    text-align: center;
+    font-weight: bold;
+    column-span: a;
+}
+.table{
+    border: 2px solid;
+    padding: 2px solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+td{
+    border: 1px solid black;
+}
+body{
+    background-image: url(../images/depositphotos_91192128-stock-illustration-watercolor-seamless-pattern-with-flower.jpg);
+    margin: auto;
+}
+.list-books{
+    margin-left: 0px;
+}
+.content{
+    width: 900px;
+    height: 500px;
+    background-color: pink;
+    margin: auto;
+    border-radius: 15px;
+    color: brown;
+}
+.name{
+    text-align: center;
+    font-style: italic;
+}

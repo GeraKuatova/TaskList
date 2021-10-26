@@ -1,0 +1,40 @@
+{
+  "taskList": [
+    {
+      "id": "1",
+      "title": "Генеральная уборка",
+      "executor": "Айгерим",
+      "startDate": "2021/10/23 14:08:23",
+      "endDate": "In process",
+      "done": false,
+      "description": "Bla bla bla vdsbd fbhdghg bdfhgh bdfhetfh bfdhdfh bfdh fdg bdfh gb  fhghdf h gf h gh"
+    },
+    {
+      "id": "2",
+      "title": "Генеральный разбор гардироба",
+      "executor": "Темирлан",
+      "startDate": "2021/10/23 14:08:23",
+      "endDate": "In process",
+      "done": false,
+      "description": "Bla bla bla vdsbd fbhdghg bdfhgh bdfhetfh bfdhdfh bfdh fdg bdfh gb  fhghdf h gf h gh"
+    },
+    {
+      "id": "3",
+      "title": "Закуп продуктов",
+      "executor": "Айгуль",
+      "startDate": "2021/10/23 14:08:23",
+      "endDate": "2021/12/23 11:00:00",
+      "done": true,
+      "description": "Bla bla bla vdsbd fbhdghg bdfhgh bdfhetfh bfdhdfh bfdh fdg bdfh gb  fhghdf h gf h gh"
+    },
+    {
+      "id": "4",
+      "title": "Забрать заказ с почты",
+      "executor": "Айгерим",
+      "startDate": "2021/10/23 14:08:23",
+      "endDate": "2021/15/23 21:10:00",
+      "done": true,
+      "description": "Bla bla bla vdsbd fbhdghg bdfhgh bdfhetfh bfdhdfh bfdh fdg bdfh gb  fhghdf h gf h gh"
+    }
+  ]
+}

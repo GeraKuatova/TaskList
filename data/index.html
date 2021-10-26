@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>List of tasks</title>
+  <link href="css/freemarker.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+  <h1>Список всех задач на неделю</h1>
+  <div class="content">
+    <div class="table flex flex-col">
+      <div class="header flex">
+        <div class="column">
+          ##
+        </div>
+        <div class="column">
+          Заголовок
+        </div>
+        <div class="column">
+          Имя исполнителя
+        </div>
+        <div class="column">
+          Дата создания
+        </div>
+        <div class="column">
+          Статус
+        </div>
+        <div class="column">
+          Действия
+        </div>
+      </div>
+      <#list taskList as task>
+      <div class="row ${task?item_parity} flex">
+        <div class="column">
+          ${task?counter}
+        </div>
+        <div class="column">
+          <a href="/index?id=${task.id}">${task.title!"-- не указано --"}</a>
+        </div>
+        <div class="column">
+          ${task.executor!"-- не указано --"}
+        </div>
+        <div class="column">
+          ${task.startDate!"-- не указано --"}
+        </div>
+        <div class="column">
+          ${task.done?string("done", "is not done")}
+        </div>
+        <div class="column">
+          <button class="register-button" type="submit"><a href="/fulfilTask?id=${task.id}">Fulfil</a></button>
+          <button class="register-button" type="submit"><a href="/deleteTask?id=${task.id}">Delete</a> </button>
+        </div>
+      </div>
+    </#list>
+  </div>
+
+  <form action="/addTask" method="POST">
+    <fieldset>
+      <div class="legend">
+        <p>Add new</p>
+      </div>
+      <div class="form-element">
+        <label for="title">Заголовок</label>
+        <input type="title" name="title" id="title" placeholder="title" required>
+      </div>
+      <div class="form-element">
+        <label for="executor">Имя исполнителя</label>
+        <input type="executor" name="executor" id="executor" placeholder="executor" required>
+      </div>
+      <div class="form-element">
+        <label for="description">Описание задачи</label>
+        <input type="description" name="description" id="description" placeholder="description" required>
+      </div>
+      <div class="form-element">
+        <button class="register-button" type="submit">Добавить!</button>
+      </div>
+    </fieldset>
+  </form>
+
+
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+p {
+  padding-left: 15px;
+}
+
+div p:last-child {
+  padding-bottom: 20px;
+}
+
+.container {
+ width: 800px;
+ margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.column {
+    flex-basis: 30%;
+}
+
+.column:first-child {
+    padding-left: 5px;
+}
+
+.column:first-child,
+.column:last-child {
+    flex-basis: 20%;
+}
+
+.header {
+    background-color: #ddd;
+    padding: 5px 0px;
+    border-bottom: 1px solid black;
+}
+
+li.row {
+}
+
+.row {
+  padding: 5px 0px;
+}
+
+body{
+    background-image: url(../images/depositphotos_91192128-stock-illustration-watercolor-seamless-pattern-with-flower.jpg);
+    margin: auto;
+}
+.content{
+    width: 900px;
+    height: 1000px;
+    background-color: pink;
+    margin: auto;
+    border-radius: 15px;
+    color: brown;
+}
+
+.even {
+ background: #eee;
+}
+
+.register-button {
+    font-size: 12px;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #30d5c8;
+    border: 0;
+    border-radius: 5px;
+    text-transform: lowercase;
+    font-weight: bold;
+    color: white;
+}
+
+.button-text{
+    color: black;
+
+}
+
+form {
+    width: 50%;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.legend {
+    margin: 0 0 10px;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-element {
+    margin-top: 20px;
+}
+
+fieldset input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+}
+
+fieldset label {
+    display: none;
+}
+
+.hr-line {
+    border-bottom: 1px solid #ddd;
+    color: #999;
+    font-size: 12px;
+    line-height: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.details {
+    background-color: #fff;
+    padding: 0 15px;
+}
+
+.register-button {
+    font-size: 19px;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    background-color: #2da562;
+    border: 0;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}

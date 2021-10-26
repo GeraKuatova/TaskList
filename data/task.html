@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Information about the task</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav>
+        <a class="nav-items" href="/">Все задачи</a>
+        <a class="nav-items" href="/">Выполненные</a>
+        <a class="nav-items" href="/">Новые</a>
+        <a class="nav-items" href="/">Статистика</a>
+    </nav>
+</header>
+
+
+<div class="content">
+
+    <h1 class="main-heading">Задачa - ${title}.</h1>
+
+    <div class="name">
+        <p>Исполнитель: ${executor}.</p>
+        <p>Дата создания: ${startDate}.</p>
+        <p>Дата выполнения: ${endDate}.</p>
+    </div>
+    <div class="column">
+        <button class="register-button" type="submit"><a href="/fulfilTask?id=${id}">Fulfil</a></button>
+        <button class="register-button" type="submit"><a href="/deleteTask?id=${id}">Delete</a> </button>
+    </div>
+    <div class="big">Описание: ${description}</div>
+</div>
+
+</body>
+</html>
